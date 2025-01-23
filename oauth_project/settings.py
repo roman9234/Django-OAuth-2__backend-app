@@ -77,9 +77,9 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-SOCIAL_AUTH_VK_OAUTH2_KEY = '51670653'
-SOCIAL_AUTH_VK_OAUTH2_SECRET = 'hnIY6UpBVYiTOMAYu6TP'
-SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['offline', 'email', 'friends', 'phone_number']
+SOCIAL_AUTH_VK_OAUTH2_KEY = '51685239'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = 'eaJSWnwuvgWYkgNQANDK'
+SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['offline', 'email', 'friends']
 
 
 WSGI_APPLICATION = 'oauth_project.wsgi.application'

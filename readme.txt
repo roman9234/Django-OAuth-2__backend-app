@@ -1,4 +1,6 @@
 python manage.py runserver
+Для работы oauth нужно открывать приложение через localhost:8000 а не 127.0.0.1
+http://localhost:8000/oauth/
 
 ---- Создание суперпользователя
 
