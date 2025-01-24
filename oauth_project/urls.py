@@ -20,6 +20,6 @@ from django.urls import path, include
 # urls проекта
 urlpatterns = [
     path('admin/', admin.site.urls), # Стандартный роут админ панели
-    path('oauth/', include('oauth_app.urls')), # Указываем путь до приложения с авторизацией
+    path('', include('oauth_app.urls')), # Указываем путь до приложения с авторизацией
     path('social-auth/', include('social_django.urls', namespace='social')), # Для работы системы надо указать route social-auth/
 ]

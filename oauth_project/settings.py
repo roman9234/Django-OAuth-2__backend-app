@@ -82,7 +82,7 @@ AUTHENTICATION_BACKENDS = (
 
 SOCIAL_AUTH_GITHUB_KEY = 'Ov23liz0YrT9BGh1Dd3t'
 SOCIAL_AUTH_GITHUB_SECRET = '9f8238e59743299d38942d1bd6e49cdf4de639a5'
-SOCIAL_AUTH_GITHUB_SCOPE = ['username', 'email', 'fullname', 'first_name', 'last_name']
+# SOCIAL_AUTH_GITHUB_SCOPE = ['username', 'email', 'fullname', 'first_name', 'last_name']
 
 SOCIAL_AUTH_VK_OAUTH2_KEY = '51685239'
 SOCIAL_AUTH_VK_OAUTH2_SECRET = 'eaJSWnwuvgWYkgNQANDK'
