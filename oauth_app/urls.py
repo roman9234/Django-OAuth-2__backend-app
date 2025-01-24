@@ -1,6 +1,7 @@
 from django.urls import path, include
 from . import views
 
+# urls приложения
 urlpatterns = [
     path('', views.index, name='index'), # Базовый путь редиректит на функцию index во views.py
     path('accounts/profile/', views.profile, name='profile'), # путь до аккаунта, где отображается информация от авторизованного пользователя
